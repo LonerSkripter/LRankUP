@@ -1,0 +1,12 @@
+Ranks:
+  '1':
+    Name: "&e[GalinhaIII]"
+    PermissionToAdd: lrankup.rank.galinha3
+  '2':
+    Name: "&e[GalinhaII]"
+    Custo: 1000
+    PermissionToAdd: lrankup.rank.galinha2
+  '3':
+    Name: "&e[GalinhaI]"
+    Custo: 3000
+    PermissionToAdd: lrankup.rank.galinha1
