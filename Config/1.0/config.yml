@@ -4,6 +4,11 @@ CurrentVersion: '1.0'
 # Caso utilize PermissionsEx, altere para "PermissionsEx"
 Permissions-Plugin: "LuckPerms"
 
+# Menu Placeholders:
+# - @rank-prefix | Retorna a prefix do rank atual do jogador
+# - @next-rank-prefix | Retorna a prefix do próximo rank do jogador
+# - @next-rank-cost-formmatted | Retorna o valor formadado de custo para o próximo rank. Exemplo: 1K
+
 Menu:
     Name: "&8Rank - Evoluir"
     Lines: 3
@@ -46,6 +51,10 @@ Rank-List:
 - ""
 - " &5&lLONER - RANKS:"
 - ""
+
+# Messages Placeholders:
+# - @need-money | Retorna o valor que falta para evoluir de rank.
+# - @rank | Retorna o rank atual do jogador.
 
 Messages:
     No-requirements:
