@@ -1,0 +1,65 @@
+# NÃO ALTERE PARA NÃO INTERFERIR NO SISTEMA DE ATUALIZAÇÕES!
+CurrentVersion: '1.0'
+
+# Caso utilize PermissionsEx, altere para "PermissionsEx"
+Permissions-Plugin: "LuckPerms"
+
+Menu:
+    Name: "&8Rank - Evoluir"
+    Lines: 3
+    Itens:
+        NextRank:
+            Slot: 11
+            ID: lime dye
+            Color: white
+            Name: "&aEvoluir de Rank"
+            Lore:
+            - ""
+            - " &dCusto do próximo rank: &a@next-rank-cost-formatted"
+            - " &dPróximo rank: &7@next-rank-prefix"
+            - ""
+            - " &aClique para evoluir de rank."
+            - ""
+            Action: "rankup"
+        Info:
+            Slot: 13
+            ID: player head;@player
+            Color: white
+            Name: "&5Informações atuais"
+            Lore:
+            - ""
+            - " &dSeu rank: &7@rank-prefix"
+            - " &dPróximo rank: &7@next-rank-prefix"
+            - ""
+        Cancel:
+            Slot: 15
+            ID: red dye
+            Color: white
+            Name: "&cCancelar"
+            Lore:
+            - ""
+            - " &7Clique para cancelar a ação."
+            - ""
+            Action: "close"
+
+Rank-List:
+- ""
+- " &5&lLONER - RANKS:"
+- ""
+
+Messages:
+    No-requirements:
+    - ""
+    - " &5&lREDE-LONER:"
+    - " &cVocê precisa de mais &8@need-money coins &cpara evoluir de rank!"
+    - ""
+    Last-rank:
+    - ""
+    - " &5&lREDE-LONER:"
+    - " &cVocê já está no último rank!"
+    - ""
+    RankUP:
+    - ""
+    - " &5&lREDE-LONER:"
+    - " &a&lGG! &aVocê evoluiu de rank para o rank @rank"
+    - ""
